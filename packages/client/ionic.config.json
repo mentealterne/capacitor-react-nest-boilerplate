@@ -1,5 +1,5 @@
 {
-  "name": "client",
+  "name": "capacitor-react-nest-boilerplate",
   "integrations": {
     "capacitor": {}
   },

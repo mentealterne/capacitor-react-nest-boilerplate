@@ -2,7 +2,7 @@ import { CapacitorConfig } from '@capacitor/cli';
 
 const config: CapacitorConfig = {
   appId: 'io.ionic.starter',
-  appName: 'client',
+  appName: 'capacitor-react-nest-boilerplate-client',
   webDir: 'build',
   bundledWebRuntime: false
 };

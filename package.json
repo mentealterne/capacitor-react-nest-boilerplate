@@ -2,5 +2,9 @@
   "private": true,
   "workspaces": [
     "packages/*"
-  ]
+  ],
+  "scripts": {
+   "start:client": "yarn workspace @workspace/capacitor-react-nest-boilerplate-client start",
+    "start:server": "yarn workspace @workspace/capacitor-react-nest-boilerplate-server start:dev"
+  }
 }

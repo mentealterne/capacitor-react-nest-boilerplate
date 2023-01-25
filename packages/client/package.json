@@ -1,5 +1,5 @@
 {
-  "name": "@workspace/client",
+  "name": "@workspace/capacitor-react-nest-boilerplate-client",
   "version": "0.0.1",
   "private": true,
   "dependencies": {
