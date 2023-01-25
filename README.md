@@ -15,7 +15,11 @@ Also, a docker-compose file is provided to speed up the development bootstrap an
 or
 
 
-`yarn install`
+`yarn install`\
+`yarn start:client` to start Ionic app\
+`yarn start:server` to start Nestjs backend
 
 
-Remember to replace all occurrencies of `capacitor-react-nest-boilerplate` with your app name
+
+
+Remember to replace all occurrencies of `capacitor-react-nest-boilerplate` with your app name.
