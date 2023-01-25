@@ -1,0 +1,22 @@
+# This docker-compose is for local development / test only
+
+version: '3.6'
+
+services:
+  # Server
+  server:
+    build:
+      context: .
+      dockerfile: ./packages/server/Dockerfile
+    volumes:
+      - ./packages/server:/usr/src/capacitor-react-nest-boilerplate/packages/server
+    ports:
+      - '3000:3000'
+  client:
+    build:
+      context: .
+      dockerfile: ./packages/client/Dockerfile
+    volumes:
+      - ./packages/client:/usr/src/capacitor-react-nest-boilerplate/packages/client
+    ports:
+      - '4000:80'
